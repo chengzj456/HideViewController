@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05195B1E21B903CE000BCE5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05195B1D21B903CE000BCE5F /* AppDelegate.m */; };
+		05195B2121B903CE000BCE5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05195B2021B903CE000BCE5F /* ViewController.m */; };
+		05195B2421B903CE000BCE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05195B2221B903CE000BCE5F /* Main.storyboard */; };
+		05195B2621B903D1000BCE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05195B2521B903D1000BCE5F /* Assets.xcassets */; };
+		05195B2921B903D1000BCE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05195B2721B903D1000BCE5F /* LaunchScreen.storyboard */; };
+		05195B2C21B903D1000BCE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05195B2B21B903D1000BCE5F /* main.m */; };
+		05195B3621B903D1000BCE5F /* HideViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05195B3521B903D1000BCE5F /* HideViewControllerTests.m */; };
+		05195B4121B903D1000BCE5F /* HideViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05195B4021B903D1000BCE5F /* HideViewControllerUITests.m */; };
+		05195B5021B90426000BCE5F /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05195B4F21B90426000BCE5F /* NewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05195B3221B903D1000BCE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05195B1121B903CE000BCE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05195B1821B903CE000BCE5F;
+			remoteInfo = HideViewController;
+		};
+		05195B3D21B903D1000BCE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05195B1121B903CE000BCE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05195B1821B903CE000BCE5F;
+			remoteInfo = HideViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05195B1921B903CE000BCE5F /* HideViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05195B1C21B903CE000BCE5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05195B1D21B903CE000BCE5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05195B1F21B903CE000BCE5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05195B2021B903CE000BCE5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05195B2321B903CE000BCE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05195B2521B903D1000BCE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05195B2821B903D1000BCE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05195B2A21B903D1000BCE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05195B2B21B903D1000BCE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05195B3121B903D1000BCE5F /* HideViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05195B3521B903D1000BCE5F /* HideViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideViewControllerTests.m; sourceTree = "<group>"; };
+		05195B3721B903D1000BCE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05195B3C21B903D1000BCE5F /* HideViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05195B4021B903D1000BCE5F /* HideViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideViewControllerUITests.m; sourceTree = "<group>"; };
+		05195B4221B903D1000BCE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05195B4E21B90426000BCE5F /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		05195B4F21B90426000BCE5F /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05195B1621B903CE000BCE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05195B2E21B903D1000BCE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05195B3921B903D1000BCE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05195B1021B903CE000BCE5F = {
+			isa = PBXGroup;
+			children = (
+				05195B1B21B903CE000BCE5F /* HideViewController */,
+				05195B3421B903D1000BCE5F /* HideViewControllerTests */,
+				05195B3F21B903D1000BCE5F /* HideViewControllerUITests */,
+				05195B1A21B903CE000BCE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05195B1A21B903CE000BCE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05195B1921B903CE000BCE5F /* HideViewController.app */,
+				05195B3121B903D1000BCE5F /* HideViewControllerTests.xctest */,
+				05195B3C21B903D1000BCE5F /* HideViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05195B1B21B903CE000BCE5F /* HideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				05195B1C21B903CE000BCE5F /* AppDelegate.h */,
+				05195B1D21B903CE000BCE5F /* AppDelegate.m */,
+				05195B1F21B903CE000BCE5F /* ViewController.h */,
+				05195B2021B903CE000BCE5F /* ViewController.m */,
+				05195B2221B903CE000BCE5F /* Main.storyboard */,
+				05195B2521B903D1000BCE5F /* Assets.xcassets */,
+				05195B2721B903D1000BCE5F /* LaunchScreen.storyboard */,
+				05195B2A21B903D1000BCE5F /* Info.plist */,
+				05195B2B21B903D1000BCE5F /* main.m */,
+				05195B4E21B90426000BCE5F /* NewViewController.h */,
+				05195B4F21B90426000BCE5F /* NewViewController.m */,
+			);
+			path = HideViewController;
+			sourceTree = "<group>";
+		};
+		05195B3421B903D1000BCE5F /* HideViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				05195B3521B903D1000BCE5F /* HideViewControllerTests.m */,
+				05195B3721B903D1000BCE5F /* Info.plist */,
+			);
+			path = HideViewControllerTests;
+			sourceTree = "<group>";
+		};
+		05195B3F21B903D1000BCE5F /* HideViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05195B4021B903D1000BCE5F /* HideViewControllerUITests.m */,
+				05195B4221B903D1000BCE5F /* Info.plist */,
+			);
+			path = HideViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05195B1821B903CE000BCE5F /* HideViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05195B4521B903D1000BCE5F /* Build configuration list for PBXNativeTarget "HideViewController" */;
+			buildPhases = (
+				05195B1521B903CE000BCE5F /* Sources */,
+				05195B1621B903CE000BCE5F /* Frameworks */,
+				05195B1721B903CE000BCE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideViewController;
+			productName = HideViewController;
+			productReference = 05195B1921B903CE000BCE5F /* HideViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05195B3021B903D1000BCE5F /* HideViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05195B4821B903D1000BCE5F /* Build configuration list for PBXNativeTarget "HideViewControllerTests" */;
+			buildPhases = (
+				05195B2D21B903D1000BCE5F /* Sources */,
+				05195B2E21B903D1000BCE5F /* Frameworks */,
+				05195B2F21B903D1000BCE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05195B3321B903D1000BCE5F /* PBXTargetDependency */,
+			);
+			name = HideViewControllerTests;
+			productName = HideViewControllerTests;
+			productReference = 05195B3121B903D1000BCE5F /* HideViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05195B3B21B903D1000BCE5F /* HideViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05195B4B21B903D1000BCE5F /* Build configuration list for PBXNativeTarget "HideViewControllerUITests" */;
+			buildPhases = (
+				05195B3821B903D1000BCE5F /* Sources */,
+				05195B3921B903D1000BCE5F /* Frameworks */,
+				05195B3A21B903D1000BCE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05195B3E21B903D1000BCE5F /* PBXTargetDependency */,
+			);
+			name = HideViewControllerUITests;
+			productName = HideViewControllerUITests;
+			productReference = 05195B3C21B903D1000BCE5F /* HideViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05195B1121B903CE000BCE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CzJ;
+				TargetAttributes = {
+					05195B1821B903CE000BCE5F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					05195B3021B903D1000BCE5F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 05195B1821B903CE000BCE5F;
+					};
+					05195B3B21B903D1000BCE5F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 05195B1821B903CE000BCE5F;
+					};
+				};
+			};
+			buildConfigurationList = 05195B1421B903CE000BCE5F /* Build configuration list for PBXProject "HideViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05195B1021B903CE000BCE5F;
+			productRefGroup = 05195B1A21B903CE000BCE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05195B1821B903CE000BCE5F /* HideViewController */,
+				05195B3021B903D1000BCE5F /* HideViewControllerTests */,
+				05195B3B21B903D1000BCE5F /* HideViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05195B1721B903CE000BCE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05195B2921B903D1000BCE5F /* LaunchScreen.storyboard in Resources */,
+				05195B2621B903D1000BCE5F /* Assets.xcassets in Resources */,
+				05195B2421B903CE000BCE5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05195B2F21B903D1000BCE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05195B3A21B903D1000BCE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05195B1521B903CE000BCE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05195B2121B903CE000BCE5F /* ViewController.m in Sources */,
+				05195B2C21B903D1000BCE5F /* main.m in Sources */,
+				05195B1E21B903CE000BCE5F /* AppDelegate.m in Sources */,
+				05195B5021B90426000BCE5F /* NewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05195B2D21B903D1000BCE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05195B3621B903D1000BCE5F /* HideViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05195B3821B903D1000BCE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05195B4121B903D1000BCE5F /* HideViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05195B3321B903D1000BCE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05195B1821B903CE000BCE5F /* HideViewController */;
+			targetProxy = 05195B3221B903D1000BCE5F /* PBXContainerItemProxy */;
+		};
+		05195B3E21B903D1000BCE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05195B1821B903CE000BCE5F /* HideViewController */;
+			targetProxy = 05195B3D21B903D1000BCE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05195B2221B903CE000BCE5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05195B2321B903CE000BCE5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05195B2721B903D1000BCE5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05195B2821B903D1000BCE5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05195B4321B903D1000BCE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05195B4421B903D1000BCE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05195B4621B903D1000BCE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AB44Q4YWL;
+				INFOPLIST_FILE = HideViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sss.HideViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05195B4721B903D1000BCE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AB44Q4YWL;
+				INFOPLIST_FILE = HideViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sss.HideViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05195B4921B903D1000BCE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HideViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sss.HideViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideViewController.app/HideViewController";
+			};
+			name = Debug;
+		};
+		05195B4A21B903D1000BCE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HideViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sss.HideViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideViewController.app/HideViewController";
+			};
+			name = Release;
+		};
+		05195B4C21B903D1000BCE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HideViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sss.HideViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HideViewController;
+			};
+			name = Debug;
+		};
+		05195B4D21B903D1000BCE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HideViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sss.HideViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HideViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05195B1421B903CE000BCE5F /* Build configuration list for PBXProject "HideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05195B4321B903D1000BCE5F /* Debug */,
+				05195B4421B903D1000BCE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05195B4521B903D1000BCE5F /* Build configuration list for PBXNativeTarget "HideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05195B4621B903D1000BCE5F /* Debug */,
+				05195B4721B903D1000BCE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05195B4821B903D1000BCE5F /* Build configuration list for PBXNativeTarget "HideViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05195B4921B903D1000BCE5F /* Debug */,
+				05195B4A21B903D1000BCE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05195B4B21B903D1000BCE5F /* Build configuration list for PBXNativeTarget "HideViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05195B4C21B903D1000BCE5F /* Debug */,
+				05195B4D21B903D1000BCE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05195B1121B903CE000BCE5F /* Project object */;
+}
